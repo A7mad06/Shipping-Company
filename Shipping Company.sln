@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping Company", "Shipping Company\Shipping Company.csproj", "{100D606D-B258-49F2-BB4A-ABEDBEFD8560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B167EBE1-9948-47AF-A875-F066454ECFEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{9B896BBE-902F-4029-87E8-CC93638A69FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{100D606D-B258-49F2-BB4A-ABEDBEFD8560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100D606D-B258-49F2-BB4A-ABEDBEFD8560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100D606D-B258-49F2-BB4A-ABEDBEFD8560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100D606D-B258-49F2-BB4A-ABEDBEFD8560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B167EBE1-9948-47AF-A875-F066454ECFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B167EBE1-9948-47AF-A875-F066454ECFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B167EBE1-9948-47AF-A875-F066454ECFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B167EBE1-9948-47AF-A875-F066454ECFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B896BBE-902F-4029-87E8-CC93638A69FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B896BBE-902F-4029-87E8-CC93638A69FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B896BBE-902F-4029-87E8-CC93638A69FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B896BBE-902F-4029-87E8-CC93638A69FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {120C2518-A06E-4705-847F-91690B8E2A62}
+	EndGlobalSection
+EndGlobal
