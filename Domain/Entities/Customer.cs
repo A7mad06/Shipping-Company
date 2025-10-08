@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,14 +8,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Customer
+    public class Customer : IdentityUser<Guid>
     {
-        [Key]
-        public Guid CustomerId { get; set; } = Guid.NewGuid();
-        [Required]
-        public string CustomerName { get; set; } = null!;
-        [Required,Phone]
-        public string PhoneNumber { get; set; } = null!;
         public ICollection<Order> Orders { get; set; } = new HashSet<Order>();
     }
 }
