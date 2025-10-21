@@ -31,6 +31,7 @@ namespace Shipping_Company
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
